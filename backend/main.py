@@ -14,6 +14,7 @@ from pydantic import BaseModel
 # OLLAMA="http://127.0.0.1:11434/api/chat"
 # MODEL="llama3.2:1b"
 # VISION_MODEL="moondream"
+name="Pradeep"
 
 class UserCreate(BaseModel):
     name:str
