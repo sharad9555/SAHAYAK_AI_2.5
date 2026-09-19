@@ -13,7 +13,6 @@ Base.metadata.create_all(engine)
 app=FastAPI(title="Sahayak AI")
 OLLAMA="http://127.0.0.1:11434/api/chat"
 MODEL="llama3.2:1b"
-name="sharad"
 VISION_MODEL="moondream"
 
 class UserCreate(BaseModel):
